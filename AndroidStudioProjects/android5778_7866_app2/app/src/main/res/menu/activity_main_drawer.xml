@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_about_us"
+            android:icon="@drawable/icons8_info_50"
+            android:title="About Us" />
+        <item
+            android:id="@+id/nav_branches"
+            android:icon="@drawable/icons8_parking_50"
+            android:title="Branches"
+            />
+        <item
+            android:id="@+id/nav_cars"
+            android:icon="@drawable/icons8_traffic_jam_50"
+            android:title="Cars" />
+        <item
+            android:id="@+id/nav_my_car"
+            android:icon="@drawable/icons8_sedan_50"
+            android:title="My Car" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/icons8_sign_out_50"
+            android:title="Logout" />
+    </group>
+
+
+</menu>

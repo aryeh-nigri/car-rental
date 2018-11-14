@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/modelDetailImageView"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="8dp"
+                android:layout_gravity="center"
+                android:scaleType="fitCenter"
+                android:layout_weight="1"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:text="ID:" />
+
+            <TextView
+                android:id="@+id/modelDetailIdTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_margin="8dp"
+                android:layout_weight="2"
+                android:text="123421" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:text="Company:" />
+
+            <TextView
+                android:id="@+id/modelDetailCompanyNameTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_margin="8dp"
+                android:layout_weight="2"
+                android:text="Nissan" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:text="Model:" />
+
+            <TextView
+                android:id="@+id/modelDetailModelNameTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_margin="8dp"
+                android:layout_weight="2"
+                android:text="micra 3" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:text="Tank Volume:" />
+
+            <TextView
+                android:id="@+id/modelDetailTankVolumeTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_margin="8dp"
+                android:layout_weight="2"
+                android:text="52.5" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:text="Gearbox:" />
+
+            <TextView
+                android:id="@+id/modelDetailGearboxTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_margin="8dp"
+                android:layout_weight="2"
+                android:text="Automatic" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:text="Seats:" />
+
+            <TextView
+                android:id="@+id/modelDetailSeatsTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_margin="8dp"
+                android:layout_weight="2"
+                android:text="5" />
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>
